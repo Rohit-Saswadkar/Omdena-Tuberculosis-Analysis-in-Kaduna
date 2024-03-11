@@ -1,5 +1,4 @@
 # Omdena-Tuberculosis-Analysis-in-Kaduna
-# Project Name
 
 ## Ridge Regression Model Evaluation
 
