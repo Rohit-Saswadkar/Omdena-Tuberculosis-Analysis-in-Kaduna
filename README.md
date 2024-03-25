@@ -21,12 +21,12 @@ The performance of a Ridge Regression model was evaluated using the following ke
 - **Hyperparameter**: Ridge Regression with alpha = 0.1 was chosen.
   
 #### RMSE (Root Mean Squared Error)
-- **Training Set**: 0.5994
-- **Test Set**: 0.6053
+- **Training Set**: 1.8682
+- **Test Set**: 1.8691
 
 #### R-squared (R2) Score
-- **Training Set**: 0.9615
-- **Test Set**: 0.9622
+- **Training Set**: 0.9092
+- **Test Set**: 0.9097
 
 ### Interpretation
 
@@ -35,7 +35,7 @@ The performance of a Ridge Regression model was evaluated using the following ke
 
 ### Conclusion
 
-The Ridge Regression model, with alpha = 0.1, demonstrates robust predictive performance on both training and test datasets. Its ability to generalize well is evident from the comparable performance on both sets, minimizing the risk of overfitting.
+The Ridge Regression model, with alpha = 10, demonstrates robust predictive performance on both training and test datasets. Its ability to generalize well is evident from the comparable performance on both sets, minimizing the risk of overfitting.
 
 ---
 
