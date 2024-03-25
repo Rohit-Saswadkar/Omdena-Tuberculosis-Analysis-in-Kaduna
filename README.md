@@ -1,28 +1,36 @@
 # Omdena-Tuberculosis-Analysis-in-Kaduna
 
-## Ridge Regression Model Evaluation
+## Data Transformation and Model Evaluation
 
-### Overview
+### Data Transformation
 
-This project evaluates the performance of a Ridge Regression model applied to a dataset. The chosen hyperparameter for Ridge Regression is alpha = 0.1. The model is assessed based on key metrics such as RMSE (Root Mean Squared Error) and R-squared (R2) score.
+The dataset underwent several transformations before model evaluation:
 
+- **Square Root Transformation**: Applied square root transformation to numerical columns to mitigate skewness. 
+  ```python
+  for col in num_cols:
+      df[col] = np.sqrt(df[col]) - 0.01
+  ```
+- **One-Hot Encoding**: Encoded the LGA (Local Government Area) feature to convert categorical data into numerical format.
+- **Principal Component Analysis (PCA)**: Utilized PCA to reduce dimensionality and extract 30 best components.
+  
 ### Model Evaluation
 
-The Ridge Regression model exhibits the following performance:
+The performance of a Ridge Regression model was evaluated using the following key metrics:
 
-#### RMSE (Root Mean Squared Error):
+- **Hyperparameter**: Ridge Regression with alpha = 0.1 was chosen.
+  
+#### RMSE (Root Mean Squared Error)
+- **Training Set**: 0.5994
+- **Test Set**: 0.6053
 
-- **Training Set:** 0.5994
-- **Test Set:** 0.6053
-
-#### R-squared (R2) Score:
-
-- **Training Set:** 0.9615
-- **Test Set:** 0.9622
+#### R-squared (R2) Score
+- **Training Set**: 0.9615
+- **Test Set**: 0.9622
 
 ### Interpretation
 
-- The low RMSE values indicate that the model's predictions closely align with the actual values on both training and test sets.
+- The low RMSE values indicate a close alignment between the model's predictions and actual values for both training and test sets.
 - High R-squared values suggest that a significant portion of the target variable's variance is captured by the model.
 
 ### Conclusion
@@ -30,6 +38,7 @@ The Ridge Regression model exhibits the following performance:
 The Ridge Regression model, with alpha = 0.1, demonstrates robust predictive performance on both training and test datasets. Its ability to generalize well is evident from the comparable performance on both sets, minimizing the risk of overfitting.
 
 ---
+
 
 # Tuberculosis (TB) Analysis and Recommendations
 
