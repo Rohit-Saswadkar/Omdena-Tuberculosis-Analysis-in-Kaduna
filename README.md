@@ -21,12 +21,12 @@ The performance of a Ridge Regression model was evaluated using the following ke
 - **Hyperparameter**: Ridge Regression with alpha = 0.1 was chosen.
   
 #### RMSE (Root Mean Squared Error)
-- **Training Set**: 1.8682
-- **Test Set**: 1.8691
+- **Training Set**: 1.45
+- **Test Set**: 1.44
 
 #### R-squared (R2) Score
-- **Training Set**: 0.9092
-- **Test Set**: 0.9097
+- **Training Set**: 0.9447
+- **Test Set**: 0.9408
 
 ### Interpretation
 
