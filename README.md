@@ -1,5 +1,7 @@
 # Omdena-Tuberculosis-Analysis-in-Kaduna
 
+![Omdena](https://github.com/user-attachments/assets/0bec0fee-b39c-430e-8a05-1e729c5906fd)
+
 ## Data Transformation and Model Evaluation
 
 ### Data Transformation
